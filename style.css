@@ -1,0 +1,33 @@
+.body{
+    background-color: aqua;
+    padding-top: 3vh;
+    min-width: 160px;
+}
+
+.main{
+    width: 80%;
+    background-color: blue;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    min-width: 150px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.sub{
+    margin: 10px;
+}
+
+.subl{
+    width: 48%;
+    display: inline-block;
+    text-align: right;
+    margin-right: 2%;
+}
+
+.subr{
+    width: 49%;
+    display: inline-block;
+    text-align: left;
+}
