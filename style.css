@@ -6,17 +6,25 @@
 
 .main{
     width: 80%;
+    min-width: 400px;
     background-color: blue;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    min-width: 150px;
     padding-top: 5px;
     padding-bottom: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: vertical;
+    justify-content: space-evenly;
 }
 
 .sub{
     margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
 
 .subl{
@@ -24,10 +32,12 @@
     display: inline-block;
     text-align: right;
     margin-right: 2%;
+    flex-grow: 1;
 }
 
 .subr{
     width: 49%;
     display: inline-block;
     text-align: left;
+    flex-grow: 1;
 }
